@@ -31,6 +31,11 @@
 - or stage all changes
 >> git add .
 
+- Commiting
+>> git commit -m "you commit message here"
+- Commiting and adding all files that have already been staged at least once before
+>> git commit -am "you commit message here" 
+
 ## Branching
 
 - See all branches available
@@ -59,8 +64,8 @@ or
 >> git diff
 
 - See the differences between the staging and working area and the last commit
->> git diff head
+>> git diff head <optional: file_name if you want to diff a specific file>
 
 - See the differences between staging area and the last commit
->> git diff --staged
->> >> git diff --cached
+>> git diff --staged <optional: file_name if you want to diff a specific file>
+>> git diff --cached <optional: file_name if you want to diff a specific file>
