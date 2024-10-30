@@ -52,6 +52,12 @@ or
 or
 >> git checkout -b <branch_you_want_to_create>
 
+- Delete a branch
+>> git branch -d <branch_name>
+or
+>> git branch -D <branch_name> (if it is a branch that has never been merged to any other branch)
+
+
 ## Merging
 
 - Go to the branch that you want to receive the changes of the other branch
