@@ -58,8 +58,8 @@ or
 - See the differences between the Working Area (or WIP: Work In Progress) and steged files
 >> git diff
 
-- See the differences between the WIP and the last commit
+- See the differences between the staging and working area and the last commit
 >> git diff head
 
-- See the differences between steging area and the last commit
+- See the differences between staging area and the last commit
 >> git diff --staged
