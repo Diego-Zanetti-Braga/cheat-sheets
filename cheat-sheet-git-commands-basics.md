@@ -63,3 +63,4 @@ or
 
 - See the differences between staging area and the last commit
 >> git diff --staged
+>> >> git diff --cached
