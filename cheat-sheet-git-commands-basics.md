@@ -80,6 +80,9 @@ or
 >> git diff branch-a..branch-b
 or
 >> git diff branch-a branch-b
+- To compare a specific file between branches
+>> git diff branch-a..branch-b -- file_name.txt
+
 
 - Compare files between two different commits
 >> git diff ce4175d..811a471
