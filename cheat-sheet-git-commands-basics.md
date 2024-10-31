@@ -75,3 +75,14 @@ or
 - See the differences between staging area and the last commit
 >> git diff --staged <optional: file_name if you want to diff a specific file>
 >> git diff --cached <optional: file_name if you want to diff a specific file>
+
+- Compare files between two different branches
+>> git diff branch-a..branch-b
+or
+>> git diff branch-a branch-b
+
+- Compare files between two different commits
+>> git diff ce4175d..811a471
+or
+>> git diff ce4175d  811a471
+
