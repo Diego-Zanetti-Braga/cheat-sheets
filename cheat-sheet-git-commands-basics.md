@@ -101,7 +101,18 @@ or just
 ## Stashing
 - Stash (hide/save) WIP (staged and unstaged) so you can move branches without the need to commit
 >> $ git stash ("git stash save" is the same)
-- Unstash the changes
+
+- Unstash (apply stashed changes) and drop the changes of the stash
 >> $ git stash pop
- 
+
+- Unstash (apply stashed changes) and keep the changes of the stash in memory
+>> $ git stash apply
+
+-- List os the stashes that you have in memory
+>> git stash list
+
+-- Apply a specific stash version
+>> git stash apply stash@{1} (the versions of stash will have an alias that look like this: "stash@{1}", "stash@{2}", etc..)
+
+
 
