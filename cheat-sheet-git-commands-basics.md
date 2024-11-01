@@ -14,6 +14,10 @@
 - Create a new file
 >> touch <file_name.extension>
 
+## Important informations
+- "indes state" is the same as the staging area
+
+
 ## Iniciate a git repository
 
 - Open git bash
@@ -89,10 +93,15 @@ or
 or
 >> git diff ce4175d  811a471
 
--- Compare the current HEAD with the previous HEAD
+- Compare the current HEAD with the previous HEAD
 >> git diff head..head~1
 or just
 >> git diff head~1 (this code is the same as "git diff head~1..head", it just switches the order)
->> 
 
+## Stashing
+- Stash (hide/save) WIP (staged and unstaged) so you can move branches without the need to commit
+>> $ git stash ("git stash save" is the same)
+- Unstash the changes
+>> $ git stash pop
+ 
 
