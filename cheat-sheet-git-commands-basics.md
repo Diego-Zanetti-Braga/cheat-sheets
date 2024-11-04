@@ -108,17 +108,22 @@ or just
 - Unstash (apply stashed changes) and keep the changes of the stash in memory (if there is more then one stash it will consider the last one)
 >> $ git stash apply
 
--- List os the stashes that you have in memory
+- List os the stashes that you have in memory
 >> git stash list
 
--- Apply a specific stash version
+- Apply a specific stash version
 >> git stash apply stash@{1} (the versions of stash will have an alias that look like this: "stash@{1}", "stash@{2}", etc..)
 
--- Drop a specific stash
+- Drop a specific stash
 >> git stash drop stash@{1}
 
--- Drop all stashes
+- Drop all stashes
 >> git stash clear
 
+## Time Travel
 
+- Come back to a previous commit state by coping it's commit hash (entirerly or just the first 7 characters) and using the code below.
+>> git checkout 296j25u
+  - When it is done you are not in any branch.
+  - You can come back to any branch by switching or create a new branch with switch -c using this old commit as a stating point.
 
