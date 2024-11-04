@@ -15,7 +15,7 @@
 >> touch <file_name.extension>
 
 ## Important informations
-- "indes state" is the same as the staging area
+- "index state" is the same as the staging area
 
 
 ## Iniciate a git repository
