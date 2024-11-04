@@ -50,6 +50,9 @@
 or
 >> git checkout <branch_that_you_want_to_go>
 
+- Switch the the previous branch you were in before
+>> git switch -
+
 - Create a new branch based on another one
 >> git switch <branch_you_want_to_copy>
 >> git switch -c <branch_you_want_to_create>
@@ -123,7 +126,10 @@ or just
 ## Time Travel
 
 - Come back to a previous commit state by coping it's commit hash (entirerly or just the first 7 characters) and using the code below.
->> git checkout 296j25u
+>> git checkout 296j254
+or go to the revious commit using HEAD~1, HEAD~2, etc
+>> git checkout HEAD~1
   - When it is done you are not in any branch.
   - You can come back to any branch by switching or create a new branch with switch -c using this old commit as a stating point.
+
 
