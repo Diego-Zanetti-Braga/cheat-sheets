@@ -94,7 +94,7 @@ or
 >> git diff ce4175d  811a471
 
 - Compare the current HEAD with the previous HEAD
->> git diff head..head~~1
+>> git diff head..head~1
 or just
 >> git diff head~1 (this code is the same as "git diff head~1..head", it just switches the order)
 
