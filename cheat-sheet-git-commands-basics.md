@@ -132,4 +132,5 @@ or go to the revious commit using HEAD~1, HEAD~2, etc
   - When it is done you are not in any branch.
   - You can come back to any branch by switching or create a new branch with switch -c using this old commit as a stating point.
 
-
+- Discart everything that you did after the last commit (staged and unstaged changes)
+>> git checkout head <file_name>
