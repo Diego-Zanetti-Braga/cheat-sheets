@@ -190,3 +190,7 @@ $ git restore --staged <file_name>
 $ git reset <commit hash>
 ````
 Using this stragegy you can create a new branch to use this changes that are still in the WIP using ````$ git switch -c new_branch_name````
+Or you can return to a specific commit and also remove all work done in the WIP area by using the parameter --hard:
+````
+$ git reset --hard <commit hash>
+````
