@@ -123,14 +123,18 @@ or just
 - Drop all stashes
 >> git stash clear
 
-## Time Travel
+## Time Travel (with dettached head)
 
 - Come back to a previous commit state by coping it's commit hash (entirerly or just the first 7 characters) and using the code below.
 >> git checkout 296j254
-or go to the revious commit using HEAD\~1, HEAD\~2, etc
+or go to the previous commit using HEAD\~1, HEAD\~2, etc
 >> git checkout HEAD\~1
   - When it is done you are not in any branch.
   - You can come back to any branch by switching or create a new branch with switch -c using this old commit as a stating point.
 
 - Discart everything that you did after the last commit (staged and unstaged changes)
 >> git checkout head <file_name>
+
+## Time traveloing (without dettached head)
+- Get the state of a specific commit for a file
+'''$ git restore --source <HEAD~1,2,3 etc or commit_hash>'''
