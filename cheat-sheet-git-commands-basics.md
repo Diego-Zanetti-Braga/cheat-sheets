@@ -9,7 +9,7 @@ $ cd ..
 ````
 - Go to the root folder
 ````
-$ cd \~
+$ cd ~
 ````
 - Make a new folder
 ````
