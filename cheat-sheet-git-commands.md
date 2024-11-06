@@ -184,3 +184,9 @@ $ git restore --source <HEAD~1,2,3 etc or commit_hash> <file_name>
 $ git restore --staged <file_name>
 ````
 
+## Remove last X commits form history
+- Makes HEAD point to a specifit commit, erases the history of the commits that came after this one, but does't erase the changes in the WIP area.
+````
+$ git reset <commit hash>
+````
+Using this stragegy you can create a new branch to use this changes that are stil in the WIP using ````$ git switch -c new_branch_name````
