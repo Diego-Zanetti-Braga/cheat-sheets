@@ -1,24 +1,4 @@
-## Basic Unix commands to use git bash
-- Enter a folder
-````
-$ cd <folder_name>
-````
-- Go to one folder up
-````
-$ cd ..
-````
-- Go to the root folder
-````
-$ cd ~
-````
-- Make a new folder
-````
-$ mkdir <folder_vame>
-````
-- Create a new file
-````
-$ touch <file_name.extension>
-````
+
 ## Important informations
 - "index state" is the same as the staging area
 
