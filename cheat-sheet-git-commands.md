@@ -190,7 +190,7 @@ $ git checkout HEAD~1
 - Discart everything that you did after the last commit (staged and unstaged changes)
 >> git checkout head <file_name>
 
-## Time traveloing (without dettached head)
+## Time traveling (without dettached head)
 - Get the state of the last commit for a file
 ````
 $ git restore <file_name>
@@ -203,5 +203,4 @@ $ git restore --source <HEAD~1,2,3 etc or commit_hash> <file_name>
 ````
 $ git restore --staged <file_name>
 ````
-
 
