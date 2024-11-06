@@ -136,5 +136,11 @@ or go to the previous commit using HEAD\~1, HEAD\~2, etc
 >> git checkout head <file_name>
 
 ## Time traveloing (without dettached head)
+- Get the state of the last commit for a file
+````
+$ git restore HEAD <file_name>
+````
 - Get the state of a specific commit for a file
-````$ git restore --source <HEAD~1,2,3 etc or commit_hash> <file_name>````
+````
+$ git restore --source <HEAD~1,2,3 etc or commit_hash> <file_name>
+````
