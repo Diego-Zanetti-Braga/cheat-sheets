@@ -189,4 +189,4 @@ $ git restore --staged <file_name>
 ````
 $ git reset <commit hash>
 ````
-Using this stragegy you can create a new branch to use this changes that are stil in the WIP using ````$ git switch -c new_branch_name````
+Using this stragegy you can create a new branch to use this changes that are still in the WIP using ````$ git switch -c new_branch_name````
