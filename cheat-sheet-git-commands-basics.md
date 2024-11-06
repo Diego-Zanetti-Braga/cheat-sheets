@@ -6,7 +6,7 @@
 >> cd ..
 
 - Go to the root folder
->> cd ~
+>> cd \~
 
 - Make a new folder
 >> mkdir <folder_vame>
@@ -97,9 +97,9 @@ or
 >> git diff ce4175d  811a471
 
 - Compare the current HEAD with the previous HEAD
->> git diff head..head~1
+>> git diff head..head\~1
 or just
->> git diff head~1 (this code is the same as "git diff head~1..head", it just switches the order)
+>> git diff head\~1 (this code is the same as "git diff head~1..head", it just switches the order)
 
 ## Stashing
 - Stash (hide/save) WIP (staged and unstaged) so you can move branches without the need to commit
@@ -127,8 +127,8 @@ or just
 
 - Come back to a previous commit state by coping it's commit hash (entirerly or just the first 7 characters) and using the code below.
 >> git checkout 296j254
-or go to the revious commit using HEAD~1, HEAD~2, etc
->> git checkout HEAD~1
+or go to the revious commit using HEAD\~1, HEAD\~2, etc
+>> git checkout HEAD\~1
   - When it is done you are not in any branch.
   - You can come back to any branch by switching or create a new branch with switch -c using this old commit as a stating point.
 
