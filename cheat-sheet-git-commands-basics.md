@@ -137,6 +137,6 @@ or go to the previous commit using HEAD\~1, HEAD\~2, etc
 
 ## Time traveloing (without dettached head)
 - Get the state of a specific commit for a file
-'''
+````
 $ git restore --source <HEAD~1,2,3 etc or commit_hash>
-'''
+````
