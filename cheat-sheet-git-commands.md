@@ -184,7 +184,7 @@ $ git restore --source <HEAD~1,2,3 etc or commit_hash> <file_name>
 $ git restore --staged <file_name>
 ````
 
-## Remove last X commits form history
+## Remove last X commits from history
 - Makes HEAD point to a specifit commit, erases the history of the commits that came after this one, but does't erase the changes in the WIP area.
 ````
 $ git reset <commit hash>
@@ -194,4 +194,11 @@ Or you can return to a specific commit and also remove all work done in the WIP 
 ````
 $ git reset --hard <commit hash>
 ````
-## Reverting the last commit
+## Reverting a commit (but still keep it in the history)
+- In order to ignore the changes that you've done in a commit, but still keep it in the history you should use revert
+````
+$ git revert <commit hash>
+````
+It will create a new commit ignoring all changes done by the commit you referenced in the command.
+
+
