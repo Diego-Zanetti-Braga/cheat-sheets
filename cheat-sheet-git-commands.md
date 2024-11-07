@@ -160,7 +160,7 @@ $ git stash clear
 ````
 $ git checkout 296j254
 ````
-or go to the previous commit using HEAD~1, HEAD~2, etc
+or go to the previous commit using HEAD\~1, HEAD\~2, etc
 ````
 $ git checkout HEAD~1
 ````
@@ -194,3 +194,4 @@ Or you can return to a specific commit and also remove all work done in the WIP 
 ````
 $ git reset --hard <commit hash>
 ````
+## Reverting the last commit
