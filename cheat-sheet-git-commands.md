@@ -164,11 +164,13 @@ or go to the previous commit using HEAD\~1, HEAD\~2, etc
 ````
 $ git checkout HEAD~1
 ````
-  - When it is done you are not in any branch.
-  - You can come back to any branch by switching or create a new branch with switch -c using this old commit as a stating point.
+When it is done you are not in any branch.
+You can come back to any branch by switching or create a new branch with ```` $ git switch -c <new_branch_name>```` using this old commit as a stating point.
 
 - Discart everything that you did after the last commit (staged and unstaged changes)
->> git checkout head <file_name>
+````
+$ git checkout head <file_name>
+````
 
 ## Time traveling (without dettached head)
 - Get the state of the last commit for a file
