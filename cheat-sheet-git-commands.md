@@ -203,4 +203,13 @@ $ git revert <commit hash>
 ````
 It will create a new commit ignoring all changes done by the commit you referenced in the command.
 
+## Set the Remote Repository
 
+- To check if there is already a remote repository set up
+````
+$ git remote -v
+````
+- Set a remote repository for the project folder
+````
+$ git remote add origin <url of the remote repo>
+````
