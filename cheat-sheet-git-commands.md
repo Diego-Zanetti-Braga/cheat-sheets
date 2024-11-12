@@ -201,6 +201,7 @@ $ git reset --hard <commit hash>
 ````
 $ git revert <commit hash>
 ````
+
 It will create a new commit ignoring all changes done by the commit you referenced in the command.
 
 ## Set the Remote Repository
@@ -222,4 +223,8 @@ $ git push origin <branch_name>
 - Push work to a repository with a different name
 ````
 $ git push origin <local_branch_name>:<remote_branch_name>
+````
+- If you want to push your current branch only by using the code ````$ git push```` you have to set the upstream branch of origin for that branch using the code below
+````
+$ git push -u origin <branch_name>
 ````
