@@ -213,3 +213,13 @@ $ git remote -v
 ````
 $ git remote add origin <url of the remote repo>
 ````
+
+## Pushing work to a remote repo
+- Push work to a repository with the same name
+````
+$ git push origin <branch_name>
+````
+- Push work to a repository with a different name
+````
+$ git push origin <local_branch_name>:<remote_branch_name>
+````
