@@ -228,3 +228,8 @@ $ git push origin <local_branch_name>:<remote_branch_name>
 ````
 $ git push -u origin <branch_name>
 ````
+
+## Rename a branch (while in it)
+````
+$ git branch -M <nem_branch_name>
+````
