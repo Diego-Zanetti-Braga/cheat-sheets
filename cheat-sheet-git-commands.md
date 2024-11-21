@@ -38,13 +38,23 @@ $ git commit -am "you commit message here"
 ````
 $ git branch
 ````
+- See all remote branches
+````
+$ git branch -r
+````
+NOTE: Sometimes when you clone a repo, you can't  see all the branches so you have to use the parameter ````-r````.
 - Swicth branches
 ````
 $ git switch <branch_that_you_want_to_go>
 ````
-or
+NOTE: the command above works even for remote branches connected to the repo.
+or the old way
 ````
 $ git checkout <branch_that_you_want_to_go>
+````
+or if the branch is a remote branch
+````
+$ git checkout --track origin/<branch_that_you_want_to_go>
 ````
 - Switch the the previous branch you were in before
 ````
