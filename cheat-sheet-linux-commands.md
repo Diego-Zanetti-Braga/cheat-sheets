@@ -1,4 +1,8 @@
 ## Basic linux commands
+- List hidden items in a folder
+````
+$ ls -a
+````
 - Enter a folder
 ````
 $ cd <folder_name>
@@ -22,4 +26,8 @@ $ touch <file_name.extension>
 - Remove a file
 ````
 $ rm <file_name.extension>
+````
+- Remove a directory/folder
+````
+$ rm -r <directory_name>
 ````
