@@ -56,6 +56,11 @@ or if the branch is a remote branch
 ````
 $ git checkout --track origin/<branch_that_you_want_to_go>
 ````
+- Switch to origin branch (witd dettached head)
+````
+$ git checkout <origin/main>
+````
+NOTE: Usually the name of the origin branch will be origin/main but sometimes that can change. To be sure about the origin brach name execute ````git branch -r````
 - Switch the the previous branch you were in before
 ````
 $ git switch -
@@ -244,13 +249,5 @@ $ git push -u origin <branch_name>
 $ git branch -M <nem_branch_name>
 ````
 
-## Origin Branch
-- List the name of the Origin branches
-````
-$ git branch -r
-````
-- Switch to origin branch (witd dettached head)
-````
-$ git checkout <origin/main>
-````
-NOTE: Usually the name of the origin branch will be origin/main but sometimes that can change. To be sure about the origin brach name execute ````git branch -r````
+
+
