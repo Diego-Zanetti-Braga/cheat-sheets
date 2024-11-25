@@ -52,11 +52,11 @@ or the old way
 ````
 $ git checkout <branch_that_you_want_to_go>
 ````
-or if the branch is a remote branch
+or the old way if the branch is a remote branch
 ````
 $ git checkout --track origin/<branch_that_you_want_to_go>
 ````
-- Switch to origin branch (witd dettached head)
+- Switch to origin branch (with dettached head)
 ````
 $ git checkout <origin/main>
 ````
