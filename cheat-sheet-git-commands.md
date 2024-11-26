@@ -249,5 +249,20 @@ $ git push -u origin <branch_name>
 $ git branch -M <nem_branch_name>
 ````
 
-
-
+## Fetching and Pulling work to from the remote repo
+- Fetch will update your remote-tracking branches with the remote changes, but will not change anything in your current work (is safe to do anytime)
+````
+$ git fetch origin <branch_name>
+````
+or just (when you have only one origin and you are in the current branch you want to fetch)
+````
+$ git fetch
+````
+- Pull will update your current work space with the remote changes, (it can result in merge conflicts)
+````
+$ git pull origin <branch_name>
+````
+or just (when you have only one origin and you are in the current branch you want to pull)
+````
+$ git pull
+````
