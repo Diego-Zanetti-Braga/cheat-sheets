@@ -266,3 +266,16 @@ or just (when you have only one origin and you are in the current branch you wan
 ````
 $ git pull
 ````
+
+## Rebase
+- Rebase will rewrite the commits that you have in your current branch. the hashes wil literaly chance, so be careful.
+- It is used to clean up your history when you want to "forget" all the merges (pulling, not pushing, from master to feature-branch) that you had to do throughout your development
+While in your development branch:
+````
+$ git rebase master
+````
+To edit the commits use the parameters:  ````-i HEAD~[number of commits you want to go back````
+````
+$ git rebase -i HEAD~9
+````
+Then you edit
