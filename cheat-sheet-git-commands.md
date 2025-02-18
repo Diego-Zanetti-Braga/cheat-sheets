@@ -281,8 +281,8 @@ $ git rebase -i HEAD~9
 Notes: The commits view ir ordered with the oldest up and newest down, the opposite of git log view. All the commits after the one you change (including itself) will have the hash changed.
 Then you edit the words that preced the commit hashes. 
 
-pick: Is the default word and is used to keep that commit the way it is
-reword: Used to rename the commit.
-fixup: Used to merge the commit with the one righ above it. The commit above will remain but will have the changes applyed to the commit you used fixup.
+- pick: Is the default word and is used to keep that commit the way it is
+-reword: Used to rename the commit.
+-fixup: Used to merge the commit with the one righ above it. The commit above will remain but will have the changes applyed to the commit you used fixup.
 
 Once youre done, you close the editor to proceed the changes
