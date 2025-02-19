@@ -286,3 +286,30 @@ Then you edit the words that preced the commit hashes.
 - fixup: Used to merge the commit with the one righ above it. The commit above will remain but will have the changes applyed to the commit you used fixup.
 
 Once youre done, you close the editor to proceed the changes
+
+## Tags
+Show Tags:
+````
+$ git tag
+````
+Filter Tags:
+````
+$ git tag -l "*<text here>*"
+````
+To see whats is in the tag:
+````
+$ git checkout <tag name>
+````
+Create a lightweigt Tag (it will be applied to the last commit):
+````
+$ git tag <tag name>
+````
+Create a annotated Tag (it will open the text editor for you to whrite you message, or you can use -m, just like in the commit message):
+````
+$ git tag -a <tag name>
+````
+To see the metadata of a tag:
+````
+$ git show <tag name>
+````
+
