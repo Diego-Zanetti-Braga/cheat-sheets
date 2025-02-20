@@ -308,8 +308,29 @@ Create a annotated Tag (it will open the text editor for you to whrite you messa
 ````
 $ git tag -a <tag name>
 ````
+Create a Tag on a specific commit hash:
+````
+$ git tag <tag name> <commit hash>
+````
+Delete a tag:
+````
+$ git tag -d <tag name>
+````
+To move a Tag from one commit hash to another:
+````
+$ git tag <same tag name> <new commit hash> -f
+````
 To see the metadata of a tag:
 ````
 $ git show <tag name>
+````
+NOTE: When you push your work to origin, the tags are NOT INCLUDED by default. You will need to explicitly push the tags.
+Push all tags:
+````
+$ git push origin --tags
+````
+Push one tag:
+````
+$ git push origin <tag name>
 ````
 
